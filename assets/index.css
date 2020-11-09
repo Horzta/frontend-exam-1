@@ -1,0 +1,48 @@
+body {
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.row {
+    padding-top: 10pt;
+}
+.header {
+    background-image: url('images/Hero Image.png');
+    min-height: 700pt;
+    height: inherit;
+    width: inherit;
+}
+
+.menu-item {
+    font-size: 16pt;
+    color: #000000 !important;
+    text-decoration: none;
+    padding: 5pt 20pt;
+}
+
+.blog {
+    margin-top: 80pt;
+}
+
+.blog-item {
+    background-color: #FFFFFF; 
+    margin:10pt;
+}
+
+.blog-item > img,
+.blog-item > span,
+.blog-item > a {
+    margin-top: -80pt;
+}
+
+.blog-item > span {
+    font-weight: 600;
+    font-size: 24pt;
+    line-height: 32pt;
+    color: #000000;
+}
+
+.blog-item > a {
+    font-size: 16pt;
+    color: #000000;
+}
